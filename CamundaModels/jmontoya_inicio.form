@@ -1,0 +1,31 @@
+{
+  "components": [
+    {
+      "text": "# JMONTOYA CDA ",
+      "type": "text",
+      "layout": {
+        "row": "Row_02tc2ps",
+        "columns": null
+      },
+      "id": "Field_1gdp1ec"
+    },
+    {
+      "text": "Haga clic en **start** para iniciar el proceso de la tecnomecánica",
+      "type": "text",
+      "layout": {
+        "row": "Row_1y99j43",
+        "columns": null
+      },
+      "id": "Field_1scixb5"
+    }
+  ],
+  "type": "default",
+  "id": "jmontoya",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

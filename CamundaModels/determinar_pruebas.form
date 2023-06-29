@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "text": "# Tecnomecanica",
+      "type": "text",
+      "layout": {
+        "row": "Row_0f1au0w",
+        "columns": null
+      },
+      "id": "Field_10ve338"
+    },
+    {
+      "text": "# Farolas ",
+      "type": "text",
+      "layout": {
+        "row": "Row_1ezbn9s",
+        "columns": null
+      },
+      "id": "Field_12uzb5q"
+    },
+    {
+      "label": "Estado de las Farolas",
+      "type": "number",
+      "layout": {
+        "row": "Row_0kq2m2o",
+        "columns": null
+      },
+      "id": "Field_17rpz4g",
+      "key": "dtefarola"
+    },
+    {
+      "text": "# Direccionales",
+      "type": "text",
+      "layout": {
+        "row": "Row_05tptj1",
+        "columns": null
+      },
+      "id": "Field_06kdvcv"
+    },
+    {
+      "label": "Estado de las Direccionales",
+      "type": "number",
+      "layout": {
+        "row": "Row_0t8rmp2",
+        "columns": null
+      },
+      "id": "Field_1nklh75",
+      "key": "dtedireccionales"
+    },
+    {
+      "text": "# Frenos",
+      "type": "text",
+      "layout": {
+        "row": "Row_0356op1",
+        "columns": null
+      },
+      "id": "Field_0vaufa7"
+    },
+    {
+      "label": "Estado de los Frenos",
+      "type": "number",
+      "layout": {
+        "row": "Row_17njp4g",
+        "columns": null
+      },
+      "id": "Field_1rxkxb1",
+      "key": "dtefrenos"
+    },
+    {
+      "text": "# Llantas",
+      "type": "text",
+      "layout": {
+        "row": "Row_00kuq2b",
+        "columns": null
+      },
+      "id": "Field_1nfqn9g"
+    },
+    {
+      "label": "Estado de las Llantas",
+      "type": "number",
+      "layout": {
+        "row": "Row_08cgd39",
+        "columns": null
+      },
+      "id": "Field_1tue65h",
+      "key": "dtellantas"
+    },
+    {
+      "text": "# Emisión de Gases",
+      "type": "text",
+      "layout": {
+        "row": "Row_1ia3plk",
+        "columns": null
+      },
+      "id": "Field_1orf6um"
+    },
+    {
+      "label": "Estado de Emisión de Gases",
+      "type": "number",
+      "layout": {
+        "row": "Row_04ufp7v",
+        "columns": null
+      },
+      "id": "Field_1duo3ny",
+      "key": "dteemision"
+    }
+  ],
+  "type": "default",
+  "id": "determinar_pruebas",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

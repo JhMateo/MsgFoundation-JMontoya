@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "text": "# Decidir arreglar moto",
+      "type": "text",
+      "layout": {
+        "row": "Row_169cenj",
+        "columns": null
+      },
+      "id": "Field_02vys0o"
+    },
+    {
+      "values": [
+        {
+          "label": "Arreglar",
+          "value": "Arreglar"
+        },
+        {
+          "label": "Nada",
+          "value": "Nada"
+        }
+      ],
+      "label": "¿Arreglar la moto?",
+      "type": "select",
+      "layout": {
+        "row": "Row_0pqg5az",
+        "columns": null
+      },
+      "id": "Field_140szg8",
+      "key": "desicion_moto",
+      "description": "Define si el cliente decide areglar la moto en los aspectos que no paso en las pruebas"
+    }
+  ],
+  "type": "default",
+  "id": "validar_arreglo",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

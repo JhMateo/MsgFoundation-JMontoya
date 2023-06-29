@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:camunda="http://camunda.org/schema/1.0/dmn" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" id="Definitions_0440bbb2-b62e-4038-b90c-f610759251cb" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.11.0" camunda:diagramRelationId="47bb76c5-838b-44e6-acb9-26b07957682c">
+  <decision id="decision_prueba" name="validarPruebas">
+    <decisionTable id="DecisionTable_0azx1hv" hitPolicy="RULE ORDER">
+      <input id="Input_1" label="prueba" camunda:inputVariable="prueba">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_12i71kh" label="porcentaje_aceptacion" biodi:width="192" camunda:inputVariable="porcentaje_aceptacion">
+        <inputExpression id="LiteralExpression_0cudsox" typeRef="long">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="resultado" typeRef="string" />
+      <rule id="DecisionRule_17899h7">
+        <description>"Prueba de Farolas realizada"</description>
+        <inputEntry id="UnaryTests_05i7p19">
+          <text>"Farolas"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0l9adao">
+          <text>[50..100]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1l591rj">
+          <text>"Aceptado"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0n7kmic">
+        <description>"Prueba de Farolas realizada"</description>
+        <inputEntry id="UnaryTests_1azlj26">
+          <text>"Farolas"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1x63tjb">
+          <text>&lt;50</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0jfm1f2">
+          <text>"Rechazado"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0bhopu1">
+        <description>"Prueba de Direccionales realizada"</description>
+        <inputEntry id="UnaryTests_12mpztf">
+          <text>"Direccionales"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0t54igm">
+          <text>[40..100]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_07thbwd">
+          <text>"Aceptado"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1eg4myt">
+        <description>"Prueba de Direccionales realizada"</description>
+        <inputEntry id="UnaryTests_19hkse2">
+          <text>"Direccionales"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_04fw6qf">
+          <text>&lt;40</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0w62sm3">
+          <text>"Rechazado"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0bl8ihn">
+        <description>"Prueba de Frenos realizada"</description>
+        <inputEntry id="UnaryTests_0f10ume">
+          <text>"Frenos"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1ajn42s">
+          <text>[80..100]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1s4gem2">
+          <text>"Aceptado"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1ona2cm">
+        <description>"Prueba de Frenos realizada"</description>
+        <inputEntry id="UnaryTests_0v037cf">
+          <text>"Frenos"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0f1bz4c">
+          <text> &lt;80</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0aer4g4">
+          <text>"Rechazado"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0kpqnkq">
+        <description>"Prueba de Llantas realizada"</description>
+        <inputEntry id="UnaryTests_1206yh8">
+          <text>"Llantas"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0sq3ij5">
+          <text>[50..100]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0b664b6">
+          <text>"Aceptado"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1bj6lrd">
+        <description>"Prueba de Llantas realizada"</description>
+        <inputEntry id="UnaryTests_1tuc7o8">
+          <text>"Llantas"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1ptf3aj">
+          <text> &lt;50</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1thy0gn">
+          <text>"Rechazado"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0xe2uw9">
+        <description>"Prueba de Emision de gases realizada"</description>
+        <inputEntry id="UnaryTests_1im4ygn">
+          <text>"Emision gases"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0fbzlbn">
+          <text>[70..100]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1kh9c0u">
+          <text>"Aceptado"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_040q9g8">
+        <description>"Prueba de Emision de gases realizada"</description>
+        <inputEntry id="UnaryTests_1txkltr">
+          <text>"Emision gases"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0hhvbcu">
+          <text> &lt;70</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1vbhcam">
+          <text>"Rechazado"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="decision_prueba">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

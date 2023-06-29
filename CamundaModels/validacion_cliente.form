@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "text": "# Validar cliente",
+      "type": "text",
+      "layout": {
+        "row": "Row_169cenj",
+        "columns": null
+      },
+      "id": "Field_02vys0o"
+    },
+    {
+      "values": [
+        {
+          "label": "Existe",
+          "value": "existe"
+        },
+        {
+          "label": "No existe",
+          "value": "no existe"
+        }
+      ],
+      "label": "Estado del cliente",
+      "type": "select",
+      "layout": {
+        "row": "Row_0pqg5az",
+        "columns": null
+      },
+      "id": "Field_140szg8",
+      "key": "validacion_cliente",
+      "description": "Define si el cliente se encuentra registrado en la DB"
+    }
+  ],
+  "type": "default",
+  "id": "validar_cliente",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

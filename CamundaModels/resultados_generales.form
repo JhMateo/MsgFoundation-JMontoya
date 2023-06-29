@@ -1,0 +1,34 @@
+{
+  "components": [
+    {
+      "text": "# Resultado general de las pruebas",
+      "type": "text",
+      "layout": {
+        "row": "Row_0tm6nnr",
+        "columns": null
+      },
+      "id": "Field_1v2ia4a"
+    },
+    {
+      "label": "Resultado",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1f6tgz1",
+        "columns": null
+      },
+      "id": "Field_1sni4x3",
+      "key": "resultado_pruebas",
+      "description": "Resultado que determina si la moto pasa todas las pruebas",
+      "disabled": true
+    }
+  ],
+  "type": "default",
+  "id": "resultados_generales",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

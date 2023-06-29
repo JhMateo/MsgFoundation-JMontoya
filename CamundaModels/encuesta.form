@@ -1,0 +1,379 @@
+{
+  "components": [
+    {
+      "text": "# Encuesta de satisfaccion",
+      "type": "text",
+      "layout": {
+        "row": "Row_0f1au0w",
+        "columns": null
+      },
+      "id": "Field_10ve338"
+    },
+    {
+      "text": "# 1) Como califica la amabilidad del personal",
+      "type": "text",
+      "layout": {
+        "row": "Row_1ezbn9s",
+        "columns": null
+      },
+      "id": "Field_12uzb5q"
+    },
+    {
+      "values": [
+        {
+          "label": "1",
+          "value": "value"
+        },
+        {
+          "label": "2",
+          "value": "value2"
+        },
+        {
+          "label": "3",
+          "value": "value3"
+        },
+        {
+          "label": "4",
+          "value": "value4"
+        },
+        {
+          "label": "5",
+          "value": "value5"
+        }
+      ],
+      "label": "Seleccione",
+      "type": "select",
+      "layout": {
+        "row": "Row_1wyzhvu",
+        "columns": null
+      },
+      "id": "Field_1gr25ns",
+      "key": "field_09k0gs1"
+    },
+    {
+      "text": "# 2) Como califica la transparencia",
+      "type": "text",
+      "layout": {
+        "row": "Row_05tptj1",
+        "columns": null
+      },
+      "id": "Field_06kdvcv"
+    },
+    {
+      "values": [
+        {
+          "label": "1",
+          "value": "value"
+        },
+        {
+          "label": "2",
+          "value": "value2"
+        },
+        {
+          "label": "3",
+          "value": "value3"
+        },
+        {
+          "label": "4",
+          "value": "value4"
+        },
+        {
+          "label": "5",
+          "value": "value5"
+        }
+      ],
+      "label": "Seleccione",
+      "type": "select",
+      "layout": {
+        "row": "Row_038mxv8",
+        "columns": null
+      },
+      "id": "Field_0kowm0i",
+      "key": "field_03q95rs"
+    },
+    {
+      "text": "# 3) Como califica la respuesta a sus inquietudes",
+      "type": "text",
+      "layout": {
+        "row": "Row_0356op1",
+        "columns": null
+      },
+      "id": "Field_0vaufa7"
+    },
+    {
+      "values": [
+        {
+          "label": "1",
+          "value": "value"
+        },
+        {
+          "label": "2",
+          "value": "value2"
+        },
+        {
+          "label": "3",
+          "value": "value3"
+        },
+        {
+          "label": "4",
+          "value": "value4"
+        },
+        {
+          "label": "5",
+          "value": "value5"
+        }
+      ],
+      "label": "Seleccione",
+      "type": "select",
+      "layout": {
+        "row": "Row_1ba2g31",
+        "columns": null
+      },
+      "id": "Field_0n2dpc3",
+      "key": "field_0qxip8d"
+    },
+    {
+      "text": "# 4) Como califica la presentación del personal",
+      "type": "text",
+      "layout": {
+        "row": "Row_00kuq2b",
+        "columns": null
+      },
+      "id": "Field_1nfqn9g"
+    },
+    {
+      "values": [
+        {
+          "label": "1",
+          "value": "value"
+        },
+        {
+          "label": "2",
+          "value": "value2"
+        },
+        {
+          "label": "3",
+          "value": "value3"
+        },
+        {
+          "label": "4",
+          "value": "value4"
+        },
+        {
+          "label": "5",
+          "value": "value5"
+        }
+      ],
+      "label": "Seleccione",
+      "type": "select",
+      "layout": {
+        "row": "Row_1190bci",
+        "columns": null
+      },
+      "id": "Field_0t8zy6z",
+      "key": "field_0uj5hjl"
+    },
+    {
+      "text": "# 5) Como califica los conocimientos en el tema",
+      "type": "text",
+      "layout": {
+        "row": "Row_1ia3plk",
+        "columns": null
+      },
+      "id": "Field_1orf6um"
+    },
+    {
+      "values": [
+        {
+          "label": "1",
+          "value": "value"
+        },
+        {
+          "label": "2",
+          "value": "value2"
+        },
+        {
+          "label": "3",
+          "value": "value3"
+        },
+        {
+          "label": "4",
+          "value": "value4"
+        },
+        {
+          "label": "5",
+          "value": "value5"
+        }
+      ],
+      "label": "Seleccione",
+      "type": "select",
+      "layout": {
+        "row": "Row_05xpa9g",
+        "columns": null
+      },
+      "id": "Field_0wigros",
+      "key": "field_1i91r24"
+    },
+    {
+      "text": "# 6) Como califica la calidad del servicio",
+      "type": "text",
+      "layout": {
+        "row": "Row_1eb2b70",
+        "columns": null
+      },
+      "id": "Field_0ctqe52"
+    },
+    {
+      "values": [
+        {
+          "label": "1",
+          "value": "value"
+        },
+        {
+          "label": "2",
+          "value": "value2"
+        },
+        {
+          "label": "3",
+          "value": "value3"
+        },
+        {
+          "label": "4",
+          "value": "value4"
+        },
+        {
+          "label": "5",
+          "value": "value5"
+        }
+      ],
+      "label": "Seleccione",
+      "type": "select",
+      "layout": {
+        "row": "Row_19lf5yy",
+        "columns": null
+      },
+      "id": "Field_1fzftyu",
+      "key": "field_0vjsmc6"
+    },
+    {
+      "text": "# 7) Como califica presentación del servicio",
+      "type": "text",
+      "layout": {
+        "row": "Row_0amn0v7",
+        "columns": null
+      },
+      "id": "Field_0blzlrw"
+    },
+    {
+      "values": [
+        {
+          "label": "1",
+          "value": "value"
+        },
+        {
+          "label": "2",
+          "value": "value2"
+        },
+        {
+          "label": "3",
+          "value": "value3"
+        },
+        {
+          "label": "4",
+          "value": "value4"
+        },
+        {
+          "label": "5",
+          "value": "value5"
+        }
+      ],
+      "label": "Seleccione",
+      "type": "select",
+      "layout": {
+        "row": "Row_1h5qjxd",
+        "columns": null
+      },
+      "id": "Field_1o1x0ba",
+      "key": "field_10n0uc8"
+    },
+    {
+      "text": "# 8) La atención fue oportuna",
+      "type": "text",
+      "layout": {
+        "row": "Row_055fpmc",
+        "columns": null
+      },
+      "id": "Field_1ogqld9"
+    },
+    {
+      "values": [
+        {
+          "label": "1",
+          "value": "value"
+        },
+        {
+          "label": "2",
+          "value": "value2"
+        },
+        {
+          "label": "3",
+          "value": "value3"
+        },
+        {
+          "label": "4",
+          "value": "value4"
+        },
+        {
+          "label": "5",
+          "value": "value5"
+        }
+      ],
+      "label": "Seleccione",
+      "type": "select",
+      "layout": {
+        "row": "Row_1y0tm6y",
+        "columns": null
+      },
+      "id": "Field_0kqu3ly",
+      "key": "field_02w756y"
+    },
+    {
+      "text": "# 9) Recomendaría  el CDA a otra persona",
+      "type": "text",
+      "layout": {
+        "row": "Row_1y4zwuf",
+        "columns": null
+      },
+      "id": "Field_1xj57co"
+    },
+    {
+      "values": [
+        {
+          "label": "Si",
+          "value": "value"
+        },
+        {
+          "label": "No",
+          "value": "value2"
+        }
+      ],
+      "label": "Seleccione",
+      "type": "select",
+      "layout": {
+        "row": "Row_1df06jr",
+        "columns": null
+      },
+      "id": "Field_1u80wr5",
+      "key": "field_08w82qg"
+    }
+  ],
+  "type": "default",
+  "id": "encuesta",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

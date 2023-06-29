@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "text": "# Tecnomecanica",
+      "type": "text",
+      "layout": {
+        "row": "Row_07navst",
+        "columns": null
+      },
+      "id": "Field_0wmg064"
+    },
+    {
+      "text": "# Farolas ",
+      "type": "text",
+      "layout": {
+        "row": "Row_17pri6j",
+        "columns": null
+      },
+      "id": "Field_1bvyz38"
+    },
+    {
+      "label": "Calificación de Farolas",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_17pri6j",
+        "columns": null
+      },
+      "id": "Field_01h2gig",
+      "key": "resultado_farolas",
+      "description": "Resultado de la prueba de las farolas",
+      "disabled": true
+    },
+    {
+      "text": "# Direccionales",
+      "type": "text",
+      "layout": {
+        "row": "Row_1iarsal",
+        "columns": null
+      },
+      "id": "Field_074hcmg"
+    },
+    {
+      "label": "Calificación de Direccionales",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1iarsal",
+        "columns": null
+      },
+      "id": "Field_185h7fl",
+      "key": "resultado_direccionales",
+      "description": "Resultado de la prueba de las direccionales",
+      "disabled": true
+    },
+    {
+      "text": "# Frenos",
+      "type": "text",
+      "layout": {
+        "row": "Row_0a2s5lj",
+        "columns": null
+      },
+      "id": "Field_1p45ck7"
+    },
+    {
+      "label": "Calificación de Frenos",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0a2s5lj",
+        "columns": null
+      },
+      "id": "Field_1fapifk",
+      "key": "resultado_frenos",
+      "disabled": true,
+      "description": "Resultado de la prueba de los frenos"
+    },
+    {
+      "text": "# Llantas",
+      "type": "text",
+      "layout": {
+        "row": "Row_1i7kcsi",
+        "columns": null
+      },
+      "id": "Field_1slr828"
+    },
+    {
+      "label": "Calificación de Llantas",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1i7kcsi",
+        "columns": null
+      },
+      "id": "Field_11kv2ej",
+      "key": "resultado_llantas",
+      "disabled": true,
+      "description": "Resultado de la prueba de las llantas"
+    },
+    {
+      "text": "# Emisión de Gases",
+      "type": "text",
+      "layout": {
+        "row": "Row_15zfyn6",
+        "columns": null
+      },
+      "id": "Field_1h1pgje"
+    },
+    {
+      "label": "Calificación de EDG",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_15zfyn6",
+        "columns": null
+      },
+      "id": "Field_0zmutx1",
+      "key": "resultado_emision",
+      "disabled": true,
+      "description": "Resultado de la prueba de las emisiones de gases"
+    }
+  ],
+  "type": "default",
+  "id": "generacion_pruebas",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}
